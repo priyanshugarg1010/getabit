@@ -1,10 +1,10 @@
-import profileCard from "../assets/image/profileCard.jpg";
+import profileImage from "../assets/image/profileImage.jpg";
 function ReleaseCard() {
   return (
     <div className="flex overflow-hidden relative flex-col cursor-pointer grow px-3.5 py-5 text-white shadow aspect-[0.91] max-md:mt-10 drop-shadow-2xl rounded-3xl">
       <img
         loading="lazy"
-        src={profileCard}
+        src={profileImage}
         className="object-cover absolute inset-0 size-full"
       />
       <h6 className="relative text-xl font-bold tracking-tighter">

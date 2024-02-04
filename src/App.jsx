@@ -31,7 +31,7 @@ const App = () => {
       </main>
       <footer>
         <Footer />
-        <div className="fixed bottom-0 right-0">
+        <div className="fixed top-0 right-0">
           <a href="https://github.com/priyanshugarg1010/getabit" target="blank">
             <Lottie
               animationData={github}
